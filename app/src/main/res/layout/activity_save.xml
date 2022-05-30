@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0E3DC"
+    tools:context=".ActivitySave">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:onClick="selectImage" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/txtPlaka"
+                    android:layout_width="326dp"
+                    android:layout_height="59dp"
+                    android:layout_margin="10dp"
+                    android:ems="10"
+                    android:hint="Plaka Giriniz:"
+                    android:inputType="textPersonName" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="56dp"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/txtKonum"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="Konum"
+                        android:inputType="textPersonName"
+                        android:maxLines="2" />
+
+                    <Button
+                        android:id="@+id/konumButton"
+                        android:layout_width="99dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/buton"
+                        android:onClick="kaydet"
+                        android:text="Konum Bul" />
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/txtTarih"
+                    android:layout_width="336dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:ems="10"
+                    android:inputType="date" />
+
+                <Button
+                    android:id="@+id/savebutton"
+                    android:layout_width="321dp"
+                    android:layout_height="87dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/buton"
+                    android:onClick="kaydet"
+                    android:text="Kaydet" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

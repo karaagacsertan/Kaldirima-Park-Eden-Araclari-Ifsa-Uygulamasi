@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "859562564766",
+    "project_id": "kaldirimapark",
+    "storage_bucket": "kaldirimapark.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:859562564766:android:2a2b55c798806991b6af8f",
+        "android_client_info": {
+          "package_name": "com.example.kaldirimapark"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "859562564766-sti7ncvatt8h25bf0m4rhltk4f30jmn0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kaldirimapark",
+            "certificate_hash": "543e3327f05252b7a963b17e695c3ae43dad119f"
+          }
+        },
+        {
+          "client_id": "859562564766-j2danets09ccp6eblfa23tilmh2fjbu8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQLvqZmOiZ62rtva8glf4XmA5RJJuNZ4Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "859562564766-j2danets09ccp6eblfa23tilmh2fjbu8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
