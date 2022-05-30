@@ -1,4 +1,4 @@
-"# Kaldirima-Park-Eden-Araclari-Ifsa-Uygulamasi" 
+Kaldirima-Park-Eden-Araclari-Ifsa-Uygulamasi
 
 Kaldirima park eden arac gordugunuzde bu uygulama vasitasi ile fotograflayabilirsiniz. Bu sayede hangi aracin ne zaman, nerede (uygulama konum servisi kullanacak) kaldirima park ettigi kayit altina alinacak. Dileyen kullanıcılar başkalarının cektigi fotograflara bakabilecek ve en cok ihlale karisan araçlari ya da en çok ihlal yapilan bölgeleri gorebilecekler.
 
